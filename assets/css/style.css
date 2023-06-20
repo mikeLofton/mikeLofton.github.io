@@ -18,3 +18,40 @@ img {
     max-width: 300px;
     width: 100%;
 }
+
+.navigation{
+    position: fixed;
+    background-color:purple;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: left;
+    padding-right: 5%;
+}
+
+.content {
+    padding-top: 105px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.portrait {
+    max-width:300px;
+    width:100%;
+}
+
+.portrait img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+}
